@@ -238,7 +238,7 @@ With us, technology becomes a driver of innovation and long-term success.</b></p
         <h2 className="text-center fw-bold mb-4">Frequently Asked Questions</h2>
         <Accordion>
           {faqs.map((faq, index) => (
-            <Accordion.Item
+            <Accordion.Item className='mb-3' data-aos='fade-right' data-aos-delay={index*100}
               eventKey={index.toString()}
               key={index}
               style={{ backgroundColor: "#280627", color: "white", border: "1px solid #fff" }}
@@ -248,7 +248,7 @@ With us, technology becomes a driver of innovation and long-term success.</b></p
                   {faq.question}
                 </span>
               </Accordion.Header>
-              <Accordion.Body style={{ backgroundColor: "#fff", color: "#280627" }}>
+              <Accordion.Body  style={{ backgroundColor: "#fff", color: "#280627" }}>
                 {faq.answer}
               </Accordion.Body>
             </Accordion.Item>

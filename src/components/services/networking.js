@@ -2,6 +2,7 @@ import React from 'react'
 import { Server, Wifi, Cpu, Shield, Monitor } from "lucide-react";
 import ServiceLayout from './ServicesLayout';
 import infraImg from '../../images/infra.jpg'
+import SEO from '../SEO';
 
 const Networking = () => {
   const itInfrastructureData = {
@@ -53,6 +54,13 @@ const Networking = () => {
 };
   return (
     <div>
+      <SEO
+        title="Networking Solutions | LINKITBLU"
+        description="Reliable networking solutions to keep your business connected."
+        keywords="networking, LAN, WAN, enterprise networks"
+        url="https://yourdomain.com/network"
+        image="https://yourdomain.com/images/network.jpg"
+      />
       <ServiceLayout {...itInfrastructureData} />
     </div>
   )

@@ -64,7 +64,7 @@ const ServiceLayout = ({
                 alt={introTitle}
                 className="img-fluid rounded shadow-sm"
                 style={{borderRadius :'20px'}}
-                data-aos='zoom-in'
+                data-aos='zoom-in' loading="lazy"
               />
             </Col>
           </Row>

@@ -2,7 +2,7 @@ import React from 'react'
 import { LifeBuoy, Cpu, Users, Settings, Headphones } from "lucide-react";
 import ServiceLayout from './ServicesLayout';
 import itImg from '../../images/support.jpg'
-
+import SEO from '../SEO';
 const ITconsultant = () => {
   const itConsultingData = {
   heroTitle: "IT Consulting & Support",
@@ -53,6 +53,13 @@ const ITconsultant = () => {
 };
   return (
     <div>
+      <SEO
+        title="IT Consulting Services | LINKITBLU"
+        description="Expert IT consulting to optimize your business technology."
+        keywords="IT consulting, IT support, technology strategy"
+        url="https://linkitblu.com/support"
+        image="https://linkitblu.com/images/itconsulting.jpg"
+      />
       <ServiceLayout {...itConsultingData} />;
     </div>
   )

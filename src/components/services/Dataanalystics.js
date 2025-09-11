@@ -2,6 +2,7 @@ import React from 'react'
 import { BarChart2, PieChart, TrendingUp, Database, Layers } from "lucide-react";
 import ServiceLayout from './ServicesLayout';
 import dataImg from '../../images/data1.jpg'
+import SEO from '../SEO';
 const Dataanalystics = () => {
   const dataAnalyticsData = {
   heroTitle: "Data & Analytics",
@@ -52,6 +53,13 @@ const Dataanalystics = () => {
 };
   return (
     <div>
+      <SEO
+        title="Data Analytics Services | LINKITBLU"
+        description="Unlock insights and make data-driven decisions with our analytics services."
+        keywords="data analytics, BI, big data, insights"
+        url="https://linkitblu.com/data"
+        image="https://linkitblu.com/images/data.jpg"
+      />
       <ServiceLayout {...dataAnalyticsData} />
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 import { Shield, Lock, AlertTriangle, Key, Eye } from "lucide-react";
 import ServiceLayout from './ServicesLayout';
 import securityImg from '../../images/cyber1.jpg'
-
+import SEO from '../SEO';
 const Cybersecurity = () => {
 
   const cybersecurityData = {
@@ -55,6 +55,13 @@ const Cybersecurity = () => {
 
   return (
     <div>
+      <SEO
+        title="Cybersecurity Services | LINKITBLU"
+        description="Protect your business with our advanced cybersecurity solutions."
+        keywords="cybersecurity, data protection, network security"
+        url="https://linkitblu.com/cyber"
+        image="https://linkitblu.com/images/cybersecurity.jpg"
+      />
      <ServiceLayout {...cybersecurityData} />;
     </div>
   )

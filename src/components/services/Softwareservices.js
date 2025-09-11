@@ -2,7 +2,7 @@ import React from 'react'
 import ServiceLayout from './ServicesLayout'
 import { Code, Smartphone, Building, ShoppingCart, Link as LinkIcon } from "lucide-react";
 import software from '../../images/software1.jpg'
-
+import SEO from '../SEO';
 
  const softwareDevelopmentData = {
   heroTitle: "Software Services",
@@ -36,6 +36,13 @@ import software from '../../images/software1.jpg'
 const Softwareservices = () => {
   return (
     <div>
+      <SEO
+        title="Software Development Services | LINKITBLU"
+        description="We deliver custom software development solutions tailored to your business needs."
+        keywords="software development, custom apps, enterprise solutions"
+        url="https://linkitblu.com/software"
+        image="https://linkitblu.com/images/software.jpg"
+      />
       <ServiceLayout {...softwareDevelopmentData} />;
   </div>
   )

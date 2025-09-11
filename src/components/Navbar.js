@@ -85,7 +85,7 @@ const CustomNavbar = () => {
                       <Link
                         key={service.name}
                         to={service.path}
-                        className="d-flex align-items-center gap-2 p-2 rounded text-decoration-none text-dark hover-bg"
+                        className="d-flex align-items-center gap-2 p-2 rounded text-decoration-none text-dark hover-bg "
                         onClick={() => {
     setShow(false);
     setExpanded(false);

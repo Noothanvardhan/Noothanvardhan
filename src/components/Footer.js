@@ -59,7 +59,7 @@ AOS.init({
           <Col md={4} className="mb-4 mt-5">
             <h5 style={{ color: "#f8d7ff" }}>Our Services</h5>
             <ul className="list-unstyled mt-5">
-              <li><Link className="footer-link" to="/software">Software Development</Link></li>
+              <li><Link className="footer-link" to="/software">Software Services</Link></li>
               <li><Link className="footer-link" to="/cloud">Cloud Services</Link></li>
               <li><Link className="footer-link" to="/cyber">Cyber Security</Link></li>
               <li><Link className="footer-link" to="/data">Data & Analytics</Link></li>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Cloud, Server, Shield, Database, Activity } from "lucide-react";
 import ServiceLayout from './ServicesLayout';
 import cloudImg from '../../images/cloud1.jpg'
+import SEO from '../SEO';
 
 const Cloudservices = () => {
 
@@ -35,6 +36,13 @@ const Cloudservices = () => {
 
   return (
     <div>
+      <SEO
+        title="Cloud Solutions | LINKITBLU"
+        description="We provide secure and scalable cloud services for businesses of all sizes."
+        keywords="cloud computing, Optimization, Cloud Security, cloud migration"
+        url="https://linkitblu.com/cloud"
+        image="https://linkitblu.com/images/cloud.jpg"
+      />
      <ServiceLayout {...cloudServicesData} />;
     </div>
   )

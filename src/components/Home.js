@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-
+import { Helmet } from "react-helmet-async";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { Link } from 'react-router-dom'
@@ -154,6 +154,28 @@ AOS.init({
 
   return (
     <div>
+
+<Helmet>
+        <title>LINKITBLU SOFTWARE PRIVATE LIMITED | Software, Cloud & IT Services</title>
+        <meta name="description" content="We provide software development, cloud solutions, cybersecurity, and IT consulting services to help businesses grow." />
+        <meta name="keywords" content="software services, cloud solutions, IT consulting, cybersecurity, data analytics ,IT Networks" />
+        
+        {/* Open Graph for social sharing */}
+        <meta property="og:title" content="Linkitblu Software Private Limited | Software & Cloud Services" />
+        <meta property="og:description" content="Leading IT solutions provider in software, cloud, cybersecurity, and data analytics." />
+        <meta property="og:image" content="https://linkitblu.com/images/preview.jpg" />
+        <meta property="og:url" content="https://linkitblu.com/" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="LINKITBLU | Software & Cloud Services" />
+        <meta name="twitter:description" content="Leading IT solutions provider in software, cloud, cybersecurity, and data analytics." />
+        <meta name="twitter:image" content="https://linkitblu.com/images/preview.jpg" />
+      </Helmet>
+
+
+
       <section className='header-section' >
         <h1 data-aos='fade-up-right'>LINKITBLU SOFTWARE</h1>
         <h1 data-aos='fade-up-right'>PRIVATE LIMITED</h1>
@@ -197,7 +219,7 @@ With us, technology becomes a driver of innovation and long-term success.</b></p
       <div className="grid-container">
         {services.map((service, index) => (
           <div className="card" key={index}  data-aos='fade-right' data-aos-delay={index*100}>
-            <img src={service.image} alt={service.title} />
+            <img src={service.image} alt={service.title} loading='lazy' />
             <div className="card-content">
               <h2>{service.title}</h2>
               <p>{service.desc}</p>

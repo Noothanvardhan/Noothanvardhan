@@ -8,6 +8,7 @@ import 'aos/dist/aos.css'
 import shape from '../images/shaping1.jpg'
 import innovation from '../images/innovation.jpg'
 import trust from '../images/trust1.jpg'
+import { Helmet } from "react-helmet-async";
 
 
 const About = () => {
@@ -51,6 +52,49 @@ const values = [
   },[])
   return (
     <div>
+
+<Helmet>
+        <title>About Us | LINKITBLU</title>
+        <meta
+          name="description"
+          content="Learn more about My Company — our mission, vision, and expertise in software services, cloud solutions, cybersecurity, and IT consulting."
+        />
+        <meta
+          name="keywords"
+          content="about us, company profile, IT services, cloud, cybersecurity, consulting"
+        />
+
+        {/* Open Graph for social media */}
+        <meta property="og:title" content="About Us | LINKITBLU" />
+        <meta
+          property="og:description"
+          content="Discover My Company's journey, vision, and expertise in delivering world-class IT services."
+        />
+        <meta
+          property="og:image"
+          content="https://linkiblu.com/images/about-preview.jpg"
+        />
+        <meta property="og:url" content="https://linkiblu.com/about" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Us | LINKITBLU" />
+        <meta
+          name="twitter:description"
+          content="Discover our mission, vision, and expertise in IT services."
+        />
+        <meta
+          name="twitter:image"
+          content="https://linkiblu.com/images/about-preview.jpg"
+        />
+
+        {/* Canonical URL */}
+        
+      </Helmet>
+
+
+
       <section className='abt-section' style={{ minHeight: "60vh",  paddingTop:'100px' }}>
       <Container>
             <h1 style={{ color: "#ffffff", fontWeight: "bold" }} data-aos='fade-right'>
@@ -88,7 +132,7 @@ const values = [
           className="img-fluid d-block w-100"
           src={shape}
           alt="First slide"
-          style={{ objectFit: "cover", height: "500px" }}
+          style={{ objectFit: "cover", height: "500px" }} loading='lazy'
          
         />
         <Carousel.Caption>
@@ -101,7 +145,7 @@ const values = [
           className="img-fluid d-block w-100"
           src={innovation}
           alt="Second slide"
-          style={{ objectFit: "cover", height: "500px" }}
+          style={{ objectFit: "cover", height: "500px" }} loading='lazy'
         />
         <Carousel.Caption>
           <h2 className="fw-bold">Driven by Purpose, Powered by Innovation</h2>
@@ -113,7 +157,7 @@ const values = [
           className=" img-fluid d-block w-100"
           src={trust}
           alt="Third slide"
-          style={{ objectFit: "cover", height: "500px" }}
+          style={{ objectFit: "cover", height: "500px" }} loading='lazy'
         />
         <Carousel.Caption>
           <h2 className="fw-bold">Built on Trust, Focused on Excellence</h2>

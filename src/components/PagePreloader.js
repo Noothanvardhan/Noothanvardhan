@@ -9,7 +9,7 @@ export default function PageLoader({ children }) {
     setLoading(true);
 
     // Fake delay for smoother effect
-    const timer = setTimeout(() => setLoading(false), 700);
+    const timer = setTimeout(() => setLoading(false), 1500);
     return () => clearTimeout(timer);
   }, [location]);
 
@@ -23,3 +23,9 @@ export default function PageLoader({ children }) {
 
   return children;
 }
+
+
+
+<div className="d-flex justify-content-center align-items-center vh-100 bg-light">
+        <div className="spinner-border text-primary" role="status"></div>
+      </div>

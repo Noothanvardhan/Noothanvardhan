@@ -96,12 +96,12 @@ p {
 /* ===== Header Section ===== */
 .header-section {
   position: relative;
-  background-image: url('./images/standard-quality-control-concept-m.jpg');
+  background-image: url('./images/standard-quality-control-concept-m.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
  width: 100%;
-  min-height: 100vh; /* ✅ full height minus navbar */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

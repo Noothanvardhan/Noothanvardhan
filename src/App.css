@@ -77,10 +77,10 @@ p {
 }
 
 .nav-link-text:hover {
-  color: darkkhaki !important;
+  color: rgb(220, 206, 11) !important;
 }
 .nav-link:hover {
-  color: darkkhaki !important;
+  color: rgb(220, 206, 11) !important;
 }
 
 .navbar-nav .nav-link.active {

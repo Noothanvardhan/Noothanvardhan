@@ -8,11 +8,17 @@
 - Passionate about building things—whether mechanical or digital!
 - Transitioning to the world of web development.
 
-🌱 **Aspiring Software Developer**
+🌱 **Aspiring Full stack Developer**
 - Completed a 3-month internship as a Frontend Developer.
 - Technologies: **HTML**, **CSS**, **JavaScript**, **React**.
-- Eager to keep learning, growing, and working with modern web technologies.
-
+- Since July 2025, working as a Full Stack Developer, building scalable web applications using:React, Node.js, .NET
+💼 Key Work & Projects
+- Developed responsive and user-friendly websites
+- Built an Automated Certificate Generation System
+- Contributed to HRMS (Human Resource Management System) applications
+- Implemented secure authentication using:
+   JWT Authentication
+   Role-Based Access Control (RBAC)
 🚀 **Career Goals**
 - Excited to contribute to impactful software projects.
 - Actively seeking opportunities to join a big company as a developer.
@@ -20,12 +26,12 @@
 ---
 
 ## 🛠️ Skills & Tools
-- **Languages:** HTML, CSS, JavaScript
-- **Frameworks:** React
+- **Languages:** HTML, CSS, JavaScript, c#
+- **Frameworks:** Frontend React,Backend Node.js &.Net
 - **Soft Skills:** Quick learner, problem solver, team player
 
 ## 👀 What I’m Interested In
-- Learning new things in web development
+- Learning new things in web and Mobile apps development
 - Collaborating with passionate developers
 - Exploring emerging technologies
 

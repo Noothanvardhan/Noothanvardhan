@@ -15,7 +15,7 @@
 💼 Key Work & Projects
 - Developed responsive and user-friendly websites
 - Built an Automated Certificate Generation System
-- Contributed to HRMS (Human Resource Management System) applications
+- Built an HRMS (Human Resource Management System) application
 - Implemented secure authentication using:
    JWT Authentication
    Role-Based Access Control (RBAC)
